@@ -8,7 +8,7 @@
 npm install -D tailwindcss postcss autoprefixer postcss-cli
 ```
 
-2. Generar los archivos de configuración de Tailwind y PostCSS. De este modo se crean a la vez los dos:
+2. Generar los archivos de configuración de Tailwind y PostCSS. De este modo se crean los dos a la vez:
 
 ```bash
 npx tailwindcss init -p
