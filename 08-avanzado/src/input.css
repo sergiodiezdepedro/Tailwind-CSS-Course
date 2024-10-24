@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-2xl text-orange-500 font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-7 py-2 rounded-lg font-bold;
+  }
+
+  .btn-red {
+    @apply bg-red-600 text-white;
+  }
+
+  .btn:hover {
+    @apply hover:bg-red-500 transform hover:scale-105 hover:-translate-y-1 transition-all duration-300;
+  }
+}
