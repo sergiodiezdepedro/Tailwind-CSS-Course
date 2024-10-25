@@ -48,6 +48,18 @@ Tailwind es **mobile first**.
 | xl                | 1280px        | @media (min-width: 1280px) { ... } |
 | 2xl               | 1536px        | @media (min-width: 1536px) { ... } |
 
+## Utilizando valores arbitrarios (JIT)
+
+[Enlace](https://tailwindcss.com/docs/adding-custom-styles)
+
+When you find yourself really needing something like `top: 117px` to get a background image in just the right spot, use Tailwind’s square bracket notation to generate a class on the fly with any arbitrary value:
+
+```html
+<div class="top-[117px]">
+  <!-- ... -->
+</div>
+```
+
 ## Recursos
 
 - [Gulp with TailwindCSS Starter Kit](https://github.com/lazymozek/gulp-with-tailwindcss).
