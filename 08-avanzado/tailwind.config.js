@@ -8,7 +8,7 @@ module.exports = {
   presets: [require("./presets/my-preset.js")],
   theme: {
     extend: {
-      //Extendiendo utilidades y características de Tailwind. No confundir 'extend' con 'preset'.
+      // * Extendiendo utilidades y características de Tailwind. No confundir 'extend' con 'preset'.
       spacing: {
         128: "32rem",
         144: "36rem",
@@ -24,13 +24,13 @@ module.exports = {
       },
     },
 
-    // Personalizando las fuentes que se quieran usar en el proyecto
+    // * Personalizando las fuentes que se quieran usar en el proyecto
     // fontFamily: {
     //   sans: ["Ubuntu", "sans-serif"],
     //   serif: ["Noto Serif", "serif"],
     // },
     // colors: {
-    //   Personalizando paletas de colores. Con precaución, porque ya no se pueden usar las paletas de colores de Tailwind y deja de compilar con un error si se utilizan
+    // *  Personalizando paletas de colores. Con precaución, porque ya no se pueden usar las paletas de colores de Tailwind y deja de compilar con un error si se utilizan
     //   blue: {
     //     dark: "#084a80",
     //     light: "#74d1ee",
@@ -50,7 +50,7 @@ module.exports = {
         },
       };
 
-      // Estilos para componentes
+      // * Estilos para componentes
       const button = {
         ".button": {
           width: "fit-content",
@@ -66,12 +66,12 @@ module.exports = {
         },
       };
 
-      // Estilos base
-      addBase({
-        h1: { fontSize: theme("spacing.2") },
-        h2: { fontSize: theme("fontSize.xl") },
-        h3: { fontSize: theme("fontSize.lg") },
-      });
+      // * Estilos base
+      // addBase({
+      //   h1: { fontSize: theme("spacing.2") },
+      //   h2: { fontSize: theme("fontSize.xl") },
+      //   h3: { fontSize: theme("fontSize.lg") },
+      // });
 
       addUtilities(newUtilities);
       addComponents(button);

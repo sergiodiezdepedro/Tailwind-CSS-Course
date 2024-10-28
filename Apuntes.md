@@ -60,6 +60,16 @@ When you find yourself really needing something like `top: 117px` to get a backg
 </div>
 ```
 
+## heroicons
+
+Se pueden utilizar [heroicons](https://heroicons.com/) en un entorno en el que se aplica Tailwind CSS. Estos iconos han sido realizados por los desarrolladores de Tailwind.
+
+Los modos de usarlos se explica en [este sitio](https://github.com/tailwindlabs/heroicons).
+
+## Tailblocks
+
+[Tailblocks](https://tailblocks.cc/) es una página con componentes creados con Tailwind de uso gratuito.
+
 ## Recursos
 
 - [Gulp with TailwindCSS Starter Kit](https://github.com/lazymozek/gulp-with-tailwindcss).
